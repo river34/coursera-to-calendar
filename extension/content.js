@@ -42,7 +42,6 @@ function trim(str) {
 
 // Strip out any HTML or HTML entities from this element
 // e.g. "<div>Some <b>string</b> &amp; example</div>" => "Some string & example"
-// TODO: ignore comments
 function unescapeElement(node) {
 
     var result = "";
