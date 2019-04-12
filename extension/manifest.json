@@ -1,0 +1,35 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "Coursera to Calendar Extension",
+  "version": "0.1",
+
+  // Recommended
+  "default_locale": "en",
+  "description": "Generate calendar events for Coursera deadlines.",
+  "icons": { "128": "icon_128.png" },
+
+  // Action
+  "browser_action": {
+    "default_icon": "icon_128.png"
+  },
+
+  // Scripts
+  "content_scripts": [
+    {
+      "matches": [ "https://www.coursera.org/*/home/assignments" ],
+      "js": [ "content.js" ]
+    }
+  ],
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  // Additional info
+  "author": "River Liu",
+  "devtools_page": "https://github.com/river34/coursera-to-calendar",
+  "homepage_url": "https://github.com/river34/coursera-to-calendar"
+}
