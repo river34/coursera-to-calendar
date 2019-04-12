@@ -10,3 +10,6 @@ This extension adds Coursera deadlines to the google calendar, so that you won't
 ## Notes:
 - If there are a lot of deadlines in the "Grade" page, it might take a while to add them all to the calendar
 - You need to manually confirm each calendar event to add it
+
+## Add to chrome:
+https://chrome.google.com/webstore/detail/coursera-to-calendar/cbehklpdmnjgpihbafndppmgkakabmpe
