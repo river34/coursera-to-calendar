@@ -10,7 +10,7 @@ chrome.runtime.onMessage.addListener (
     }
 );
 
-const baseLink = "https://www.coursera.org/";
+const baseLink = "https://www.coursera.org";
 
 function run(limit) {
     var deadlineElements = getAllDeadlineElementes();
