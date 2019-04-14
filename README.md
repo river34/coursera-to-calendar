@@ -13,3 +13,8 @@ This extension adds Coursera deadlines to the google calendar, so that you won't
 
 ## Add to chrome:
 https://chrome.google.com/webstore/detail/coursera-to-calendar/cbehklpdmnjgpihbafndppmgkakabmpe
+
+## Dev plans:
+- To have the option to add only the future deadlines
+- To have the option to add individual deadline
+- To incorporate the new gapi
