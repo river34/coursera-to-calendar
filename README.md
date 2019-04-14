@@ -1,4 +1,4 @@
-# coursera-to-calendar
+# Coursera to Calendar
 
 This extension adds Coursera deadlines to the google calendar, so that you won't miss important benchmarks, and finish the online course on time!
 
@@ -15,6 +15,8 @@ This extension adds Coursera deadlines to the google calendar, so that you won't
 https://chrome.google.com/webstore/detail/coursera-to-calendar/cbehklpdmnjgpihbafndppmgkakabmpe
 
 ## Dev plans:
+- To open the "Grades" page for a course, if the user is not currently at one
 - To have the option to add only the future deadlines
 - To have the option to add individual deadline
+- To support other online course systems, like Udemy
 - To incorporate the new gapi
